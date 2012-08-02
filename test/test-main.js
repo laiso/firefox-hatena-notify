@@ -12,7 +12,7 @@ exports.testId = function(test) {
 
 exports.testFeedURL = function(test) {
   test.assertEqual(
-      "http://www.hatena.ne.jp/login?http://notify.hatena.ne.jp/notices.iframe",
+      "http://www.hatena.ne.jp/login?https://www.hatena.ne.jp/notify/notices.iframe",
       app.getFeedURL());
 };
 
